@@ -1,0 +1,8 @@
+{
+  "name": "VeriSmart AI",
+  "description": "Next-generation Digital Identity & Background Verification system powered by multi-agentic AI and OCR.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": []
+}

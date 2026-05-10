@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  :root {
+    --bg: #0A0B10;
+    --card-bg: #15171F;
+    --accent: #3B82F6;
+    --success: #10B981;
+    --warning: #F59E0B;
+    --error: #EF4444;
+    --text: #F8FAFC;
+    --text-muted: #94A3B8;
+    --line: #1E293B;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--text);
+  }
+}
+
+.tech-grid {
+  background-image: radial-gradient(var(--line) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.glass-card {
+  background: rgba(21, 23, 31, 0.8);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--line);
+}
+
+.mono-data {
+  font-family: var(--font-mono);
+  letter-spacing: -0.02em;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
